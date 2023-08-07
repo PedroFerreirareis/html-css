@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela completa</title>
+</head>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 400px;
+    }
+
+    .destaque {
+        color: white;
+        background-color:rgb(138, 127, 127) ;
+    }
+
+    .destaque1 {
+        text-align: left;
+        color: white;
+        background-color:rgb(138, 127, 127) ;
+    }
+
+    td, th {
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <table>
+        <theader>
+            <tr class="destaque">
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplina</th>
+                <th colspan="2" scope="colgroup">notas</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr class="destaque">
+              <th scope="col">nota1</th>
+              <th scope="col">nota2</th>
+            </tr>
+        </theader>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup"><strong>Exatas</strong></th>
+                <td>matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="destaque1">
+                <th colspan="4" scope="row">Medidas de exatas</th>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup"><strong>Humanas</strong></th>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="destaque1">
+                <th colspan="4" scope="row">media de humana</th>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
